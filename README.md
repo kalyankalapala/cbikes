@@ -2,4 +2,4 @@
 Online store development (Html, CSS, JS)
 Docker and CI/CD using AWS
 
-https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoicXlDOXJMUGJWWmpJTTdERUR1V0oyc1UwT3paem9BeEcwTytiUlNQTE5zbnZvOEQwd21mS3AxaU9RWDU4aUJ5TDRPcFE0VERmU0l3VVZSZ0RLUGoyUGtJPSIsIml2UGFyYW1ldGVyU3BlYyI6InpqMklGTCtpZUFSKy9yNzQiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main
+https://codefactory-us-east-1-prod-default-build-badges.s3.amazonaws.com/unknown.svg
