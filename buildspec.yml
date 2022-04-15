@@ -23,10 +23,10 @@ phases:
       #- docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG
       - docker push 850769113977.dkr.ecr.us-east-1.amazonaws.com/sampledocker:latest
       - echo Writing image definitions file...
-      - printf '[{"name":"kalyan","imageUri":"%s"}]' 850769113977.dkr.ecr.us-east-1.amazonaws.com/sampledocker:latest > imagedefinitions.json
-      - cat imagedefinitions.json 
-      - zip -r imagedefinitions.json.zip imagedefinitions.json
-      - aws s3 cp ./imagedefinitions.json.zip s3://codepipeline-us-east-1-457832133121
+      #- printf '[{"name":"kalyan","imageUri":"%s"}]' 850769113977.dkr.ecr.us-east-1.amazonaws.com/sampledocker:latest > imagedefinitions.json
+      #- cat imagedefinitions.json 
+      #- zip -r imagedefinitions.json.zip imagedefinitions.json
+      #- aws s3 cp ./imagedefinitions.json.zip s3://codepipeline-us-east-1-457832133121
       # docker
-artifacts:
-    files: imagedefinitions.json
+#artifacts:
+    #files: imagedefinitions.json
