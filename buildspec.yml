@@ -30,8 +30,6 @@ phases:
       #- zip -r imagedefinitions.json.zip imagedefinitions.json
       #- aws s3 cp ./imagedefinitions.json.zip s3://codepipeline-us-east-1-457832133121
       # docker
-   artifacts:
-    files:
-      - imagedefinitions.json
-#artifacts:
-    #files: imagedefinitions.json
+artifacts:
+    files: imagedefinitions.json
+
