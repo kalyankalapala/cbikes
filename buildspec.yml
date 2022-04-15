@@ -26,7 +26,7 @@ phases:
       - printf '[{"name":"kalyan","imageUri":"%s"}]' 850769113977.dkr.ecr.us-east-1.amazonaws.com/sampledocker:latest > imagedefinitions.json
       - cat imagedefinitions.json 
       - zip -r imagedefinitions.json.zip imagedefinitions.json
-      - aws s3 cp ./imagedefinitions.json.zip s3://codepipeline-us-east-1-457832133121/dockerpipeline/
+      - aws s3 cp ./imagedefinitions.json.zip s3://codepipeline-us-east-1-457832133121
       # docker
 artifacts:
     files: imagedefinitions.json
