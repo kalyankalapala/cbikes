@@ -23,7 +23,7 @@ phases:
       - echo Pushing the Docker image...
       #- docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG
       - docker push 850769113977.dkr.ecr.us-east-1.amazonaws.com/kaldocker:latest
-      - printf '[{"name":"kalyan","imageUri":"850769113977.dkr.ecr.us-east-1.amazonaws.com/kaldocker:latest"}]' > imagedefinitions.js
+      - printf '[{"name":"kal","imageUri":"850769113977.dkr.ecr.us-east-1.amazonaws.com/kaldocker:latest"}]' > imagedefinitions.json
       #- echo Writing image definitions file...
       #- printf '[{"name":"kalyan","imageUri":"%s"}]' 850769113977.dkr.ecr.us-east-1.amazonaws.com/sampledocker:latest > imagedefinitions.json
       #- cat imagedefinitions.json 
